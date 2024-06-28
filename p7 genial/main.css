@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+ion-icon {
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 15px;
+
+}
+
+.button {
+    text-align: center;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "EB Garamond", serif;
+
+}
+
+ion-icon {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nav {
+    font-size: 20px;
+    color: black;
+    display: flex;
+
+    justify-content: space-between;
+
+
+}
+
+.nav h1 {
+    font-family: "Shadows Into Light", cursive;
+    padding-left: 9%;
+
+}
+
+.wo img {
+    width: 30px;
+    padding-left: 48px;
+
+
+}
+
+.wo {
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+#q {
+    height: 90vh;
+    width: 160vh;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+
+.up {
+
+    background-color: white;
+    color: black;
+    padding: 7%;
+    width: 40%;
+    height: 20%;
+    position: relative;
+    bottom: -50px;
+    left: 50%;
+    font-family: "EB Garamond", serif;
+    margin-right: 0px;
+    padding-right: 0px;
+
+}
+
+.up h1 {
+    font-size: 5vh;
+}
+
+.up span {
+    font-size: 3vh;
+    color: gray;
+}
+
+.up p {
+    font-size: 3vh;
+    color: gray;
+
+}
+
+
+.blog {
+    margin-top: 10%;
+}
+
+
+.main {
+    margin-right: 4%;
+    margin-left: 4%;
+    display: flex;
+    gap: 7.7%;
+}
+
+.card {
+
+    width: 60vh;
+
+}
+
+.card img {
+    height: 80vh;
+    width: 60vh;
+}
+
+#dif {
+    height: 60vh;
+    width: 60vh;
+}
+
+.card h1 {
+    font-size: 30px;
+}
+
+.card p,
+span {
+    color: gray;
+    font-size: 20px;
+}
+
+.line {
+    border: 1px solid rgba(128, 128, 128, 0.295);
+
+    height: 400vh;
+    width: 0;
+}
+
+.line0 {
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    height: 0;
+    width: 207vh;
+
+}
+
+.left,
+.right,
+.middle {
+    margin-top: 4%;
+}
+
+.right {
+    width: 35vh;
+
+}
+
+.card0 h1 {
+    font-size: 35px;
+}
+
+.card0 p {
+    color: gray;
+    font-size: 18px;
+
+}
+
+
+#round {
+    border: 1px solid white;
+    border-radius: 100%;
+    height: 20vh;
+    width: 20vh;
+}
+
+
+/* Categories */
+
+.catg .imgg img {
+    height: 15vh;
+    width: 15vh;
+    position: absolute;
+    filter: blur(0.6px);
+    filter: brightness(70%);
+}
+
+.catg .imgg span {
+    position: relative;
+    left: 15px;
+    top: 34px;
+    color: white;
+}
+
+.swan {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* end */
+
+.sub {
+    margin-top: 45%;
+
+}
+
+
+.social {
+    border: 1px solid rgb(252, 250, 250);
+    font-size: 17px;
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+
+}
+
+
+.social:hover {
+    background-color: rgb(26, 23, 23);
+    color: white;
+    transition-duration: 0.4s;
+}
+
+
+.para p {
+    font-size: 15px;
+}
+
+.para {
+    display: flex;
+    gap: 20px;
+}
+
+.imgp img {
+    height: 11vh;
+}
+
+.para span {
+    font-size: 13px;
+}
+
+.las {
+    margin-top: 50%;
+}
+
+.las img {
+    height: 50vh;
+    width: 38vh;
+}
+
+.btan {
+    border: 1px solid rgb(15, 15, 15);
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    position: relative;
+    left: 33%;
+}
+
+.btan:hover {
+    background-color: rgb(243, 240, 240);
+    color: rgb(19, 17, 17);
+    transition-duration: 0.4s;
+}
+
+/* gallery */
+
+.gall {
+    display: flex;
+    gap: 10px
+}
+
+
+.gall img {
+    height: 28vh;
+    margin: 1%;
+    position: relative;
+
+
+}
+
+.i:hover img {
+    filter: brightness(60%);
+    opacity: 1;
+}
+
+
+.one img {
+    position: absolute;
+    left: 89px;
+    height: 7vh;
+    top: 584vh;
+    opacity: 0;
+
+}
+
+.two img {
+    position: absolute;
+    left: 355px;
+    height: 7vh;
+    top: 584vh;
+    opacity: 0;
+
+}
+
+.three img {
+    position: absolute;
+    left: 643px;
+    height: 7vh;
+    top: 584vh;
+    opacity: 0;
+
+}
+
+.four img {
+    position: absolute;
+    left: 920px;
+    height: 7vh;
+    top: 584vh;
+    opacity: 0;
+
+}
+
+.five img {
+    position: absolute;
+    left: 1191px;
+    height: 7vh;
+    top: 584vh;
+    opacity: 0;
+
+}
+
+/* end */
+
+.fotter {
+    padding: 4%;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+#mesg {
+    height: 80px;
+    width: 30%;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rest ol {
+    list-style-type: none;
+}
+
+#big {
+    font-size: larger;
+    padding-bottom: 4%;
+    font-weight: bolder;
+
+}
+
+.rest input {
+    border: 1px solid black;
+    padding: 2.6%;
+}
+
+
+/* Mobile Res */
+@media(min-width:320px) and (max-width:520px){
+
+    .nav {
+        margin-right: -178px;
+    }
+
+    .wo img {
+        padding-top: 6%;
+        padding-left: 15px;
+    }
+
+    #q {
+        height: 50%;
+        width: 70vh;
+    }
+
+    .up {
+        width: 128%;
+        color: black;
+        padding: 7%;
+        height: 20%;
+        position: relative;
+        left: 1%;
+        bottom: -291px;
+        font-family: "EB Garamond", serif;
+    }
+
+    .main {
+        display: block;
+        margin-left: 30px;
+        margin-top: 80%;
+        width: 100%;
+    }
+
+    .card {
+        width: 100vh;
+    }
+
+    .card img {
+        width: 90vh;
+    }
+
+    .card img {
+        width: 90vh;
+    }
+
+    #dif {
+        width: 90vh;
+    }
+
+    .line {
+
+
+        height: 0;
+        width: 0;
+    }
+
+    .line0 {
+
+        height: 0;
+        width: 0vh;
+
+    }
+
+    .right {
+        width: 90vh;
+    }
+
+
+    .las {
+        margin-top: 10%;
+    }
+
+    .last img {
+        width: auto;
+        margin-left: 30%;
+
+
+    }
+
+    .btan {
+        left: 73%;
+    }
+    .gall {
+        display: block;
+   
+    }
+    .gall img {
+        height: 55vh;
+        width: 97vh;
+    }
+
+    .lists {
+        display: block;
+
+    }
+}
